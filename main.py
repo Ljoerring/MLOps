@@ -9,6 +9,8 @@ from model import MyAwesomeModel
 from torch import nn, optim
 import matplotlib.pyplot as plt
 
+# hej med dig. Dette er en test 
+
 class TrainOREvaluate(object):
     """ Helper class that will help launch class methods as commands
         from a single script
