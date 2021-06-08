@@ -1,0 +1,13 @@
+Training day and night
+Namespace(lr=0.003)
+Starting epoch  1
+Traceback (most recent call last):
+  File "/Users/carolinesofieljorring/Documents/MLOps/MLOps_github/main.py", line 147, in <module>
+    TrainOREvaluate()
+  File "/Users/carolinesofieljorring/Documents/MLOps/MLOps_github/main.py", line 31, in __init__
+    getattr(self, args.command)()
+  File "/Users/carolinesofieljorring/Documents/MLOps/MLOps_github/main.py", line 66, in train
+    wandb.log({'Loss: ', np.mean(train_losses)})
+  File "/opt/miniconda3/envs/MLOps/lib/python3.9/site-packages/wandb/sdk/wandb_run.py", line 1065, in log
+    raise ValueError("wandb.log must be passed a dictionary")
+ValueError: wandb.log must be passed a dictionary

@@ -1,0 +1,37 @@
+Training day and night
+Namespace(lr=0.003)
+Downloading http://yann.lecun.com/exdb/mnist/train-images-idx3-ubyte.gz to ./.pytorch/MNIST_data/MNIST/raw/train-images-idx3-ubyte.gz
+Traceback (most recent call last):
+  File "/Users/carolinesofieljorring/Documents/MLOps/MLOps_github/main.py", line 147, in <module>
+    TrainOREvaluate()
+  File "/Users/carolinesofieljorring/Documents/MLOps/MLOps_github/main.py", line 31, in __init__
+    getattr(self, args.command)()
+  File "/Users/carolinesofieljorring/Documents/MLOps/MLOps_github/main.py", line 43, in train
+    train_set, _ = mnist()
+  File "/Users/carolinesofieljorring/Documents/MLOps/MLOps_github/data.py", line 12, in mnist
+    trainset = datasets.MNIST('./.pytorch/MNIST_data/', download=True, train=True, transform=transform)
+  File "/opt/miniconda3/envs/MLOps/lib/python3.9/site-packages/torchvision/datasets/mnist.py", line 79, in __init__
+    self.download()
+  File "/opt/miniconda3/envs/MLOps/lib/python3.9/site-packages/torchvision/datasets/mnist.py", line 146, in download
+    download_and_extract_archive(url, download_root=self.raw_folder, filename=filename, md5=md5)
+  File "/opt/miniconda3/envs/MLOps/lib/python3.9/site-packages/torchvision/datasets/utils.py", line 256, in download_and_extract_archive
+    download_url(url, download_root, filename, md5)
+  File "/opt/miniconda3/envs/MLOps/lib/python3.9/site-packages/torchvision/datasets/utils.py", line 84, in download_url
+    raise e
+  File "/opt/miniconda3/envs/MLOps/lib/python3.9/site-packages/torchvision/datasets/utils.py", line 70, in download_url
+    urllib.request.urlretrieve(
+  File "/opt/miniconda3/envs/MLOps/lib/python3.9/urllib/request.py", line 239, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+  File "/opt/miniconda3/envs/MLOps/lib/python3.9/urllib/request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "/opt/miniconda3/envs/MLOps/lib/python3.9/urllib/request.py", line 523, in open
+    response = meth(req, response)
+  File "/opt/miniconda3/envs/MLOps/lib/python3.9/urllib/request.py", line 632, in http_response
+    response = self.parent.error(
+  File "/opt/miniconda3/envs/MLOps/lib/python3.9/urllib/request.py", line 561, in error
+    return self._call_chain(*args)
+  File "/opt/miniconda3/envs/MLOps/lib/python3.9/urllib/request.py", line 494, in _call_chain
+    result = func(*args)
+  File "/opt/miniconda3/envs/MLOps/lib/python3.9/urllib/request.py", line 641, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 503: Service Unavailable

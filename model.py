@@ -2,11 +2,13 @@ from torch import nn
 import torch.nn.functional as F
 import torch
 
+#config = wandb.config
 kernel_size = 5
 channel_sizes = [1, 6, 16]
 hidden_sizes = [256, 120, 84]
 output_size = 10
 dropout_rate = 0.2
+#config.learning_rate = 0.01
 
 class MyAwesomeModel(nn.Module):
     def __init__(self):

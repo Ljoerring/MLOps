@@ -1,0 +1,149 @@
+2021-06-08 12:01:16,540 INFO    MainThread:13521 [internal.py:wandb_internal():88] W&B internal server running at pid: 13521, started at: 2021-06-08 12:01:16.540221
+2021-06-08 12:01:16,541 INFO    WriterThread:13521 [datastore.py:open_for_write():77] open: /Users/carolinesofieljorring/Documents/MLOps/MLOps_github/wandb/run-20210608_120116-un9xn050/run-un9xn050.wandb
+2021-06-08 12:01:16,541 DEBUG   HandlerThread:13521 [handler.py:handle_request():124] handle_request: check_version
+2021-06-08 12:01:16,542 DEBUG   SenderThread:13521 [sender.py:send():179] send: header
+2021-06-08 12:01:16,542 DEBUG   SenderThread:13521 [sender.py:send_request():193] send_request: check_version
+2021-06-08 12:01:16,604 DEBUG   SenderThread:13521 [sender.py:send():179] send: run
+2021-06-08 12:01:16,870 INFO    SenderThread:13521 [dir_watcher.py:__init__():168] watching files in: /Users/carolinesofieljorring/Documents/MLOps/MLOps_github/wandb/run-20210608_120116-un9xn050/files
+2021-06-08 12:01:16,870 INFO    SenderThread:13521 [sender.py:_start_run_threads():704] run started: un9xn050 with start time 1623146476
+2021-06-08 12:01:16,870 DEBUG   SenderThread:13521 [sender.py:send():179] send: summary
+2021-06-08 12:01:16,870 DEBUG   HandlerThread:13521 [handler.py:handle_request():124] handle_request: run_start
+2021-06-08 12:01:16,874 DEBUG   HandlerThread:13521 [meta.py:__init__():39] meta init
+2021-06-08 12:01:16,874 DEBUG   HandlerThread:13521 [meta.py:__init__():53] meta init done
+2021-06-08 12:01:16,875 INFO    SenderThread:13521 [sender.py:_save_file():829] saving file wandb-summary.json with policy end
+2021-06-08 12:01:16,883 DEBUG   HandlerThread:13521 [meta.py:probe():210] probe
+2021-06-08 12:01:16,889 DEBUG   HandlerThread:13521 [meta.py:_setup_git():200] setup git
+2021-06-08 12:01:16,939 DEBUG   HandlerThread:13521 [meta.py:_setup_git():207] setup git done
+2021-06-08 12:01:16,940 DEBUG   HandlerThread:13521 [meta.py:_save_pip():57] save pip
+2021-06-08 12:01:16,940 DEBUG   HandlerThread:13521 [meta.py:_save_pip():71] save pip done
+2021-06-08 12:01:16,940 DEBUG   HandlerThread:13521 [meta.py:_save_conda():78] save conda
+2021-06-08 12:01:17,666 DEBUG   HandlerThread:13521 [meta.py:_save_conda():86] save conda done
+2021-06-08 12:01:17,666 DEBUG   HandlerThread:13521 [meta.py:probe():252] probe done
+2021-06-08 12:01:17,688 DEBUG   SenderThread:13521 [sender.py:send():179] send: files
+2021-06-08 12:01:17,688 INFO    SenderThread:13521 [sender.py:_save_file():829] saving file wandb-metadata.json with policy now
+2021-06-08 12:01:17,691 DEBUG   HandlerThread:13521 [handler.py:handle_request():124] handle_request: stop_status
+2021-06-08 12:01:17,691 DEBUG   SenderThread:13521 [sender.py:send_request():193] send_request: stop_status
+2021-06-08 12:01:17,878 INFO    Thread-8  :13521 [dir_watcher.py:_on_file_created():216] file/dir created: /Users/carolinesofieljorring/Documents/MLOps/MLOps_github/wandb/run-20210608_120116-un9xn050/files/output.log
+2021-06-08 12:01:17,879 INFO    Thread-8  :13521 [dir_watcher.py:_on_file_created():216] file/dir created: /Users/carolinesofieljorring/Documents/MLOps/MLOps_github/wandb/run-20210608_120116-un9xn050/files/wandb-metadata.json
+2021-06-08 12:01:17,879 INFO    Thread-8  :13521 [dir_watcher.py:_on_file_created():216] file/dir created: /Users/carolinesofieljorring/Documents/MLOps/MLOps_github/wandb/run-20210608_120116-un9xn050/files/media/graph/graph_0_summary_91679345.graph.json
+2021-06-08 12:01:17,879 INFO    Thread-8  :13521 [dir_watcher.py:_on_file_created():216] file/dir created: /Users/carolinesofieljorring/Documents/MLOps/MLOps_github/wandb/run-20210608_120116-un9xn050/files/conda-environment.yaml
+2021-06-08 12:01:17,879 INFO    Thread-8  :13521 [dir_watcher.py:_on_file_created():216] file/dir created: /Users/carolinesofieljorring/Documents/MLOps/MLOps_github/wandb/run-20210608_120116-un9xn050/files/wandb-summary.json
+2021-06-08 12:01:17,879 INFO    Thread-8  :13521 [dir_watcher.py:_on_file_created():216] file/dir created: /Users/carolinesofieljorring/Documents/MLOps/MLOps_github/wandb/run-20210608_120116-un9xn050/files/requirements.txt
+2021-06-08 12:01:17,879 INFO    Thread-8  :13521 [dir_watcher.py:_on_file_created():216] file/dir created: /Users/carolinesofieljorring/Documents/MLOps/MLOps_github/wandb/run-20210608_120116-un9xn050/files/media/graph
+2021-06-08 12:01:17,879 INFO    Thread-8  :13521 [dir_watcher.py:_on_file_created():216] file/dir created: /Users/carolinesofieljorring/Documents/MLOps/MLOps_github/wandb/run-20210608_120116-un9xn050/files/media
+2021-06-08 12:01:17,895 DEBUG   SenderThread:13521 [sender.py:send():179] send: files
+2021-06-08 12:01:17,896 INFO    SenderThread:13521 [sender.py:_save_file():829] saving file media/graph/graph_0_summary_91679345.graph.json with policy now
+2021-06-08 12:01:17,896 DEBUG   SenderThread:13521 [sender.py:send():179] send: summary
+2021-06-08 12:01:17,896 INFO    SenderThread:13521 [sender.py:_save_file():829] saving file wandb-summary.json with policy end
+2021-06-08 12:01:18,320 INFO    Thread-11 :13521 [upload_job.py:push():133] Uploaded file /var/folders/fs/z4lysv996dq1_bqqn9qzfwch0000gn/T/tmpeic06khlwandb/ljaetwxg-wandb-metadata.json
+2021-06-08 12:01:18,526 INFO    Thread-12 :13521 [upload_job.py:push():133] Uploaded file /var/folders/fs/z4lysv996dq1_bqqn9qzfwch0000gn/T/tmpeic06khlwandb/2cbz7clc-media/graph/graph_0_summary_91679345.graph.json
+2021-06-08 12:01:18,880 INFO    Thread-8  :13521 [dir_watcher.py:_on_file_modified():229] file/dir modified: /Users/carolinesofieljorring/Documents/MLOps/MLOps_github/wandb/run-20210608_120116-un9xn050/files/wandb-summary.json
+2021-06-08 12:01:19,885 INFO    Thread-8  :13521 [dir_watcher.py:_on_file_modified():229] file/dir modified: /Users/carolinesofieljorring/Documents/MLOps/MLOps_github/wandb/run-20210608_120116-un9xn050/files/output.log
+2021-06-08 12:01:24,910 INFO    Thread-8  :13521 [dir_watcher.py:_on_file_modified():229] file/dir modified: /Users/carolinesofieljorring/Documents/MLOps/MLOps_github/wandb/run-20210608_120116-un9xn050/files/media
+2021-06-08 12:01:24,911 INFO    Thread-8  :13521 [dir_watcher.py:_on_file_modified():229] file/dir modified: /Users/carolinesofieljorring/Documents/MLOps/MLOps_github/wandb/run-20210608_120116-un9xn050/files/media/graph
+2021-06-08 12:01:33,846 DEBUG   SenderThread:13521 [sender.py:send():179] send: telemetry
+2021-06-08 12:01:33,847 DEBUG   HandlerThread:13521 [handler.py:handle_request():124] handle_request: poll_exit
+2021-06-08 12:01:33,847 DEBUG   SenderThread:13521 [sender.py:send():179] send: exit
+2021-06-08 12:01:33,847 INFO    SenderThread:13521 [sender.py:send_exit():287] handling exit code: 1
+2021-06-08 12:01:33,848 INFO    SenderThread:13521 [sender.py:send_exit():295] send defer
+2021-06-08 12:01:33,848 DEBUG   SenderThread:13521 [sender.py:send_request():193] send_request: poll_exit
+2021-06-08 12:01:33,848 DEBUG   HandlerThread:13521 [handler.py:handle_request():124] handle_request: defer
+2021-06-08 12:01:33,849 INFO    HandlerThread:13521 [handler.py:handle_request_defer():141] handle defer: 0
+2021-06-08 12:01:33,849 DEBUG   SenderThread:13521 [sender.py:send_request():193] send_request: defer
+2021-06-08 12:01:33,849 INFO    SenderThread:13521 [sender.py:send_request_defer():304] handle sender defer: 0
+2021-06-08 12:01:33,849 INFO    SenderThread:13521 [sender.py:send_request_defer():342] send defer: 1
+2021-06-08 12:01:33,849 DEBUG   HandlerThread:13521 [handler.py:handle_request():124] handle_request: defer
+2021-06-08 12:01:33,850 INFO    HandlerThread:13521 [handler.py:handle_request_defer():141] handle defer: 1
+2021-06-08 12:01:33,856 DEBUG   SenderThread:13521 [sender.py:send_request():193] send_request: defer
+2021-06-08 12:01:33,856 INFO    SenderThread:13521 [sender.py:send_request_defer():304] handle sender defer: 1
+2021-06-08 12:01:33,857 INFO    SenderThread:13521 [sender.py:send_request_defer():342] send defer: 2
+2021-06-08 12:01:33,857 DEBUG   SenderThread:13521 [sender.py:send():179] send: stats
+2021-06-08 12:01:33,857 DEBUG   HandlerThread:13521 [handler.py:handle_request():124] handle_request: defer
+2021-06-08 12:01:33,858 INFO    HandlerThread:13521 [handler.py:handle_request_defer():141] handle defer: 2
+2021-06-08 12:01:33,858 DEBUG   SenderThread:13521 [sender.py:send_request():193] send_request: defer
+2021-06-08 12:01:33,858 INFO    SenderThread:13521 [sender.py:send_request_defer():304] handle sender defer: 2
+2021-06-08 12:01:33,858 INFO    SenderThread:13521 [sender.py:send_request_defer():342] send defer: 3
+2021-06-08 12:01:33,858 DEBUG   HandlerThread:13521 [handler.py:handle_request():124] handle_request: defer
+2021-06-08 12:01:33,859 INFO    HandlerThread:13521 [handler.py:handle_request_defer():141] handle defer: 3
+2021-06-08 12:01:33,859 DEBUG   SenderThread:13521 [sender.py:send():179] send: summary
+2021-06-08 12:01:33,860 INFO    SenderThread:13521 [sender.py:_save_file():829] saving file wandb-summary.json with policy end
+2021-06-08 12:01:33,860 DEBUG   SenderThread:13521 [sender.py:send_request():193] send_request: defer
+2021-06-08 12:01:33,860 INFO    SenderThread:13521 [sender.py:send_request_defer():304] handle sender defer: 3
+2021-06-08 12:01:33,860 INFO    SenderThread:13521 [sender.py:send_request_defer():342] send defer: 4
+2021-06-08 12:01:33,860 DEBUG   HandlerThread:13521 [handler.py:handle_request():124] handle_request: defer
+2021-06-08 12:01:33,861 INFO    HandlerThread:13521 [handler.py:handle_request_defer():141] handle defer: 4
+2021-06-08 12:01:33,861 DEBUG   SenderThread:13521 [sender.py:send_request():193] send_request: defer
+2021-06-08 12:01:33,861 INFO    SenderThread:13521 [sender.py:send_request_defer():304] handle sender defer: 4
+2021-06-08 12:01:33,957 DEBUG   HandlerThread:13521 [handler.py:handle_request():124] handle_request: poll_exit
+2021-06-08 12:01:33,957 INFO    Thread-8  :13521 [dir_watcher.py:_on_file_modified():229] file/dir modified: /Users/carolinesofieljorring/Documents/MLOps/MLOps_github/wandb/run-20210608_120116-un9xn050/files/output.log
+2021-06-08 12:01:33,958 INFO    Thread-8  :13521 [dir_watcher.py:_on_file_modified():229] file/dir modified: /Users/carolinesofieljorring/Documents/MLOps/MLOps_github/wandb/run-20210608_120116-un9xn050/files/wandb-summary.json
+2021-06-08 12:01:34,115 INFO    SenderThread:13521 [sender.py:send_request_defer():342] send defer: 5
+2021-06-08 12:01:34,116 DEBUG   SenderThread:13521 [sender.py:send_request():193] send_request: poll_exit
+2021-06-08 12:01:34,116 DEBUG   HandlerThread:13521 [handler.py:handle_request():124] handle_request: defer
+2021-06-08 12:01:34,116 INFO    HandlerThread:13521 [handler.py:handle_request_defer():141] handle defer: 5
+2021-06-08 12:01:34,116 DEBUG   SenderThread:13521 [sender.py:send_request():193] send_request: defer
+2021-06-08 12:01:34,116 INFO    SenderThread:13521 [sender.py:send_request_defer():304] handle sender defer: 5
+2021-06-08 12:01:34,117 INFO    SenderThread:13521 [dir_watcher.py:finish():282] shutting down directory watcher
+2021-06-08 12:01:34,225 DEBUG   HandlerThread:13521 [handler.py:handle_request():124] handle_request: poll_exit
+2021-06-08 12:01:34,966 INFO    SenderThread:13521 [dir_watcher.py:_on_file_modified():229] file/dir modified: /Users/carolinesofieljorring/Documents/MLOps/MLOps_github/wandb/run-20210608_120116-un9xn050/files/config.yaml
+2021-06-08 12:01:34,967 INFO    SenderThread:13521 [dir_watcher.py:finish():312] scan: /Users/carolinesofieljorring/Documents/MLOps/MLOps_github/wandb/run-20210608_120116-un9xn050/files
+2021-06-08 12:01:34,968 INFO    SenderThread:13521 [dir_watcher.py:finish():318] scan save: /Users/carolinesofieljorring/Documents/MLOps/MLOps_github/wandb/run-20210608_120116-un9xn050/files/requirements.txt requirements.txt
+2021-06-08 12:01:34,968 INFO    SenderThread:13521 [dir_watcher.py:finish():318] scan save: /Users/carolinesofieljorring/Documents/MLOps/MLOps_github/wandb/run-20210608_120116-un9xn050/files/output.log output.log
+2021-06-08 12:01:34,969 INFO    SenderThread:13521 [dir_watcher.py:finish():318] scan save: /Users/carolinesofieljorring/Documents/MLOps/MLOps_github/wandb/run-20210608_120116-un9xn050/files/config.yaml config.yaml
+2021-06-08 12:01:34,969 INFO    SenderThread:13521 [dir_watcher.py:finish():318] scan save: /Users/carolinesofieljorring/Documents/MLOps/MLOps_github/wandb/run-20210608_120116-un9xn050/files/wandb-summary.json wandb-summary.json
+2021-06-08 12:01:34,977 INFO    SenderThread:13521 [dir_watcher.py:finish():318] scan save: /Users/carolinesofieljorring/Documents/MLOps/MLOps_github/wandb/run-20210608_120116-un9xn050/files/conda-environment.yaml conda-environment.yaml
+2021-06-08 12:01:34,985 INFO    SenderThread:13521 [dir_watcher.py:finish():318] scan save: /Users/carolinesofieljorring/Documents/MLOps/MLOps_github/wandb/run-20210608_120116-un9xn050/files/wandb-metadata.json wandb-metadata.json
+2021-06-08 12:01:34,991 INFO    SenderThread:13521 [dir_watcher.py:finish():318] scan save: /Users/carolinesofieljorring/Documents/MLOps/MLOps_github/wandb/run-20210608_120116-un9xn050/files/media/graph/graph_0_summary_91679345.graph.json media/graph/graph_0_summary_91679345.graph.json
+2021-06-08 12:01:34,991 INFO    SenderThread:13521 [sender.py:send_request_defer():342] send defer: 6
+2021-06-08 12:01:34,991 DEBUG   SenderThread:13521 [sender.py:send_request():193] send_request: poll_exit
+2021-06-08 12:01:34,992 DEBUG   HandlerThread:13521 [handler.py:handle_request():124] handle_request: defer
+2021-06-08 12:01:34,992 INFO    HandlerThread:13521 [handler.py:handle_request_defer():141] handle defer: 6
+2021-06-08 12:01:34,992 DEBUG   SenderThread:13521 [sender.py:send_request():193] send_request: defer
+2021-06-08 12:01:34,992 INFO    SenderThread:13521 [sender.py:send_request_defer():304] handle sender defer: 6
+2021-06-08 12:01:34,992 INFO    SenderThread:13521 [file_pusher.py:finish():176] shutting down file pusher
+2021-06-08 12:01:34,993 INFO    SenderThread:13521 [sender.py:send_request_defer():342] send defer: 7
+2021-06-08 12:01:34,993 DEBUG   HandlerThread:13521 [handler.py:handle_request():124] handle_request: defer
+2021-06-08 12:01:34,993 INFO    HandlerThread:13521 [handler.py:handle_request_defer():141] handle defer: 7
+2021-06-08 12:01:34,993 DEBUG   SenderThread:13521 [sender.py:send_request():193] send_request: defer
+2021-06-08 12:01:34,993 INFO    SenderThread:13521 [sender.py:send_request_defer():304] handle sender defer: 7
+2021-06-08 12:01:35,098 DEBUG   HandlerThread:13521 [handler.py:handle_request():124] handle_request: poll_exit
+2021-06-08 12:01:35,362 INFO    SenderThread:13521 [sender.py:send_request_defer():342] send defer: 8
+2021-06-08 12:01:35,362 DEBUG   SenderThread:13521 [sender.py:send_request():193] send_request: poll_exit
+2021-06-08 12:01:35,363 DEBUG   HandlerThread:13521 [handler.py:handle_request():124] handle_request: defer
+2021-06-08 12:01:35,363 INFO    HandlerThread:13521 [handler.py:handle_request_defer():141] handle defer: 8
+2021-06-08 12:01:35,363 DEBUG   SenderThread:13521 [sender.py:send_request():193] send_request: defer
+2021-06-08 12:01:35,363 INFO    SenderThread:13521 [sender.py:send_request_defer():304] handle sender defer: 8
+2021-06-08 12:01:35,363 INFO    SenderThread:13521 [sender.py:send_request_defer():342] send defer: 9
+2021-06-08 12:01:35,363 DEBUG   HandlerThread:13521 [handler.py:handle_request():124] handle_request: defer
+2021-06-08 12:01:35,364 DEBUG   SenderThread:13521 [sender.py:send():179] send: final
+2021-06-08 12:01:35,364 INFO    HandlerThread:13521 [handler.py:handle_request_defer():141] handle defer: 9
+2021-06-08 12:01:35,364 DEBUG   SenderThread:13521 [sender.py:send():179] send: footer
+2021-06-08 12:01:35,364 DEBUG   SenderThread:13521 [sender.py:send_request():193] send_request: defer
+2021-06-08 12:01:35,364 INFO    SenderThread:13521 [sender.py:send_request_defer():304] handle sender defer: 9
+2021-06-08 12:01:35,469 DEBUG   HandlerThread:13521 [handler.py:handle_request():124] handle_request: poll_exit
+2021-06-08 12:01:35,469 DEBUG   SenderThread:13521 [sender.py:send_request():193] send_request: poll_exit
+2021-06-08 12:01:35,578 DEBUG   HandlerThread:13521 [handler.py:handle_request():124] handle_request: poll_exit
+2021-06-08 12:01:35,579 DEBUG   SenderThread:13521 [sender.py:send_request():193] send_request: poll_exit
+2021-06-08 12:01:35,687 DEBUG   HandlerThread:13521 [handler.py:handle_request():124] handle_request: poll_exit
+2021-06-08 12:01:35,688 DEBUG   SenderThread:13521 [sender.py:send_request():193] send_request: poll_exit
+2021-06-08 12:01:35,789 INFO    Thread-14 :13521 [upload_job.py:push():133] Uploaded file /Users/carolinesofieljorring/Documents/MLOps/MLOps_github/wandb/run-20210608_120116-un9xn050/files/output.log
+2021-06-08 12:01:35,792 INFO    Thread-13 :13521 [upload_job.py:push():133] Uploaded file /Users/carolinesofieljorring/Documents/MLOps/MLOps_github/wandb/run-20210608_120116-un9xn050/files/requirements.txt
+2021-06-08 12:01:35,796 INFO    Thread-16 :13521 [upload_job.py:push():133] Uploaded file /Users/carolinesofieljorring/Documents/MLOps/MLOps_github/wandb/run-20210608_120116-un9xn050/files/wandb-summary.json
+2021-06-08 12:01:35,796 INFO    Thread-15 :13521 [upload_job.py:push():133] Uploaded file /Users/carolinesofieljorring/Documents/MLOps/MLOps_github/wandb/run-20210608_120116-un9xn050/files/config.yaml
+2021-06-08 12:01:35,798 INFO    Thread-17 :13521 [upload_job.py:push():133] Uploaded file /Users/carolinesofieljorring/Documents/MLOps/MLOps_github/wandb/run-20210608_120116-un9xn050/files/conda-environment.yaml
+2021-06-08 12:01:35,798 DEBUG   HandlerThread:13521 [handler.py:handle_request():124] handle_request: poll_exit
+2021-06-08 12:01:35,799 DEBUG   SenderThread:13521 [sender.py:send_request():193] send_request: poll_exit
+2021-06-08 12:01:35,907 DEBUG   HandlerThread:13521 [handler.py:handle_request():124] handle_request: poll_exit
+2021-06-08 12:01:35,907 DEBUG   SenderThread:13521 [sender.py:send_request():193] send_request: poll_exit
+2021-06-08 12:01:36,013 DEBUG   HandlerThread:13521 [handler.py:handle_request():124] handle_request: poll_exit
+2021-06-08 12:01:36,014 DEBUG   SenderThread:13521 [sender.py:send_request():193] send_request: poll_exit
+2021-06-08 12:01:36,014 INFO    SenderThread:13521 [file_pusher.py:join():181] waiting for file pusher
+2021-06-08 12:01:36,018 DEBUG   HandlerThread:13521 [handler.py:handle_request():124] handle_request: get_summary
+2021-06-08 12:01:36,019 DEBUG   HandlerThread:13521 [handler.py:handle_request():124] handle_request: sampled_history
+2021-06-08 12:01:36,020 DEBUG   HandlerThread:13521 [handler.py:handle_request():124] handle_request: shutdown
+2021-06-08 12:01:36,021 INFO    HandlerThread:13521 [handler.py:finish():638] shutting down handler
+2021-06-08 12:01:36,369 INFO    WriterThread:13521 [datastore.py:close():258] close: /Users/carolinesofieljorring/Documents/MLOps/MLOps_github/wandb/run-20210608_120116-un9xn050/run-un9xn050.wandb
+2021-06-08 12:01:37,020 INFO    SenderThread:13521 [sender.py:finish():933] shutting down sender
+2021-06-08 12:01:37,021 INFO    SenderThread:13521 [file_pusher.py:finish():176] shutting down file pusher
+2021-06-08 12:01:37,021 INFO    SenderThread:13521 [file_pusher.py:join():181] waiting for file pusher
+2021-06-08 12:01:37,025 INFO    MainThread:13521 [internal.py:handle_exit():78] Internal process exited

@@ -1,0 +1,24 @@
+{
+    "os": "macOS-10.16-x86_64-i386-64bit",
+    "python": "3.9.5",
+    "heartbeatAt": "2021-06-08T10:01:16.885736",
+    "startedAt": "2021-06-08T10:01:16.051200",
+    "docker": null,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [
+        "train"
+    ],
+    "state": "running",
+    "program": "/Users/carolinesofieljorring/Documents/MLOps/MLOps_github/main.py",
+    "codePath": "main.py",
+    "git": {
+        "remote": "https://github.com/Ljoerring/MLOps.git",
+        "commit": "68532443bbe032954ba774ea4ab2fcf8aa9b3b9b"
+    },
+    "email": null,
+    "root": "/Users/carolinesofieljorring/Documents/MLOps/MLOps_github",
+    "host": "Carolines-MacBook-Pro.local",
+    "username": "carolinesofieljorring",
+    "executable": "/opt/miniconda3/envs/MLOps/bin/python"
+}

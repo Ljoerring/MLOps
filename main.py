@@ -8,8 +8,8 @@ import helper
 from model import MyAwesomeModel
 from torch import nn, optim
 import matplotlib.pyplot as plt
-
-# hej med dig. Dette er en test 
+import wandb
+wandb.init(project='MLOps', entity='ljoerring')
 
 class TrainOREvaluate(object):
     """ Helper class that will help launch class methods as commands
@@ -39,6 +39,7 @@ class TrainOREvaluate(object):
         print(args)
         
         model = MyAwesomeModel()
+        wandb.watch(model)
         train_set, _ = mnist()
         trainloader = torch.utils.data.DataLoader(train_set, batch_size=64, shuffle=True)
         criterion = nn.NLLLoss()
@@ -62,6 +63,7 @@ class TrainOREvaluate(object):
                 loss.backward()
                 optimizer.step()
                 train_losses.append(loss.item())
+            wandb.log({'Loss: ', np.mean(train_losses)})    
             print('Loss: ', np.mean(train_losses))
 
             # for epoch vs loss plot 
